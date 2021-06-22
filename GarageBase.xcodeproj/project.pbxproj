@@ -14,7 +14,10 @@
 		321BEC222681B4330027F88D /* GarageBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321BEC212681B4330027F88D /* GarageBaseTests.swift */; };
 		321BEC2D2681B4330027F88D /* GarageBaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321BEC2C2681B4330027F88D /* GarageBaseUITests.swift */; };
 		32813FE02681B90D00189BA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32813FDF2681B90D00189BA3 /* GoogleService-Info.plist */; };
-		32813FE22681B91500189BA3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32813FE12681B91500189BA3 /* Info.plist */; };
+		32813FE7268281DE00189BA3 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32813FE6268281DD00189BA3 /* ArticleListView.swift */; };
+		32813FEA26828B6700189BA3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32813FE926828B6700189BA3 /* Colors.swift */; };
+		32813FED268294AA00189BA3 /* ReferenceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32813FEC268294AA00189BA3 /* ReferenceListView.swift */; };
+		32813FF0268294D600189BA3 /* CSListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32813FEF268294D600189BA3 /* CSListView.swift */; };
 		8D046C6B46DEC01B5F0234A9 /* Pods_GarageBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B57FF1326C9ADC533585573 /* Pods_GarageBase.framework */; };
 		8F537316559AAA57D464C53B /* Pods_GarageBase_GarageBaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613FCC13F5CF02120BDD1891 /* Pods_GarageBase_GarageBaseUITests.framework */; };
 		9F526DE40638DF96EE02095B /* Pods_GarageBaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49966EBF38566DA6CA562EF2 /* Pods_GarageBaseTests.framework */; };
@@ -51,8 +54,11 @@
 		321BEC282681B4330027F88D /* GarageBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarageBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		321BEC2C2681B4330027F88D /* GarageBaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageBaseUITests.swift; sourceTree = "<group>"; };
 		321BEC2E2681B4330027F88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32813FDF2681B90D00189BA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GarageBase/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		32813FE12681B91500189BA3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GarageBase/Info.plist; sourceTree = "<group>"; };
+		32813FDF2681B90D00189BA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32813FE6268281DD00189BA3 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		32813FE926828B6700189BA3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		32813FEC268294AA00189BA3 /* ReferenceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceListView.swift; sourceTree = "<group>"; };
+		32813FEF268294D600189BA3 /* CSListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSListView.swift; sourceTree = "<group>"; };
 		457DD8F768C4DBD8DAFC024E /* Pods-GarageBaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarageBaseTests.debug.xcconfig"; path = "Target Support Files/Pods-GarageBaseTests/Pods-GarageBaseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		46FFE9E156AEE628FF093018 /* Pods-GarageBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarageBase.debug.xcconfig"; path = "Target Support Files/Pods-GarageBase/Pods-GarageBase.debug.xcconfig"; sourceTree = "<group>"; };
 		49966EBF38566DA6CA562EF2 /* Pods_GarageBaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GarageBaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,8 +113,6 @@
 		321BEC032681B4300027F88D = {
 			isa = PBXGroup;
 			children = (
-				32813FDF2681B90D00189BA3 /* GoogleService-Info.plist */,
-				32813FE12681B91500189BA3 /* Info.plist */,
 				321BEC0E2681B4300027F88D /* GarageBase */,
 				321BEC202681B4330027F88D /* GarageBaseTests */,
 				321BEC2B2681B4330027F88D /* GarageBaseUITests */,
@@ -131,10 +135,13 @@
 		321BEC0E2681B4300027F88D /* GarageBase */ = {
 			isa = PBXGroup;
 			children = (
+				321BEC182681B4330027F88D /* Info.plist */,
+				32813FDF2681B90D00189BA3 /* GoogleService-Info.plist */,
+				32813FE826828B5100189BA3 /* HelperScripts */,
+				32813FE42682765B00189BA3 /* Views */,
 				321BEC0F2681B4300027F88D /* GarageBaseApp.swift */,
 				321BEC112681B4300027F88D /* ContentView.swift */,
 				321BEC132681B4330027F88D /* Assets.xcassets */,
-				321BEC182681B4330027F88D /* Info.plist */,
 				321BEC152681B4330027F88D /* Preview Content */,
 			);
 			path = GarageBase;
@@ -164,6 +171,56 @@
 				321BEC2E2681B4330027F88D /* Info.plist */,
 			);
 			path = GarageBaseUITests;
+			sourceTree = "<group>";
+		};
+		32813FE32681BB1D00189BA3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		32813FE42682765B00189BA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32813FEE268294C100189BA3 /* CodeSnippets */,
+				32813FEB2682949E00189BA3 /* Reference */,
+				32813FE5268281CD00189BA3 /* Articles */,
+				32813FE32681BB1D00189BA3 /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32813FE5268281CD00189BA3 /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				32813FE6268281DD00189BA3 /* ArticleListView.swift */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		32813FE826828B5100189BA3 /* HelperScripts */ = {
+			isa = PBXGroup;
+			children = (
+				32813FE926828B6700189BA3 /* Colors.swift */,
+			);
+			path = HelperScripts;
+			sourceTree = "<group>";
+		};
+		32813FEB2682949E00189BA3 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				32813FEC268294AA00189BA3 /* ReferenceListView.swift */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		32813FEE268294C100189BA3 /* CodeSnippets */ = {
+			isa = PBXGroup;
+			children = (
+				32813FEF268294D600189BA3 /* CSListView.swift */,
+			);
+			path = CodeSnippets;
 			sourceTree = "<group>";
 		};
 		601226EDC765A8A6F5C42595 /* Frameworks */ = {
@@ -284,7 +341,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32813FE22681B91500189BA3 /* Info.plist in Resources */,
 				321BEC172681B4330027F88D /* Preview Assets.xcassets in Resources */,
 				321BEC142681B4330027F88D /* Assets.xcassets in Resources */,
 				32813FE02681B90D00189BA3 /* GoogleService-Info.plist in Resources */,
@@ -416,6 +472,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				321BEC122681B4300027F88D /* ContentView.swift in Sources */,
+				32813FEA26828B6700189BA3 /* Colors.swift in Sources */,
+				32813FF0268294D600189BA3 /* CSListView.swift in Sources */,
+				32813FED268294AA00189BA3 /* ReferenceListView.swift in Sources */,
+				32813FE7268281DE00189BA3 /* ArticleListView.swift in Sources */,
 				321BEC102681B4300027F88D /* GarageBaseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
