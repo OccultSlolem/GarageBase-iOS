@@ -27,6 +27,12 @@ struct ContentView: View {
                     Image(systemName: "chevron.left.slash.chevron.right")
                     Text("Code Snippets")
                 }
+            
+            ProfileView()
+                .tabItem {
+                    Image(systemName: "person.fill")
+                    Text("Profile")
+                }
         }
     }
 }

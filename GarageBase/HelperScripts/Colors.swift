@@ -9,10 +9,6 @@ import Foundation
 import SwiftUI
 
 struct Colors {
-    public static var osTheme: UIUserInterfaceStyle {
-        return UIScreen.main.traitCollection.userInterfaceStyle
-    }
-    
     // Color scheme can be found at https://coolors.co/f8e91f-ffd100-d6d6d6-333533-202020
     public static let aureolin = Color(hex: 0xF8E91F)
     public static let cyberYellow = Color(hex: 0xFFD100)
@@ -45,9 +41,8 @@ struct ColorSquare: View {
             Rectangle()
                 .frame(width: 50, height: 50, alignment: .center)
                 .foregroundColor(color)
-                .background(Rectangle()
-                                .frame(width: 51, height: 51, alignment: .center)
-                                .foregroundColor(.black))
+                .shadow(radius: 10)
+            
             Text(colorName)
         }
         .padding(.horizontal)
