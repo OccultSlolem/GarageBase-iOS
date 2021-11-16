@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320AC31727437D450009B28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320AC2FB27437D450009B28B /* Assets.xcassets */; };
+		320AC31827437D450009B28B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 320AC2FC27437D450009B28B /* GoogleService-Info.plist */; };
+		320AC31927437D450009B28B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320AC2FE27437D450009B28B /* Preview Assets.xcassets */; };
+		320AC31A27437D450009B28B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320AC30027437D450009B28B /* Colors.swift */; };
+		320AC31B27437D450009B28B /* GarageBaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320AC30127437D450009B28B /* GarageBaseApp.swift */; };
+		320AC31D27437D450009B28B /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320AC30627437D450009B28B /* ArticleListView.swift */; };
+		320AC31E27437D450009B28B /* CSListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320AC30827437D450009B28B /* CSListView.swift */; };
+		320AC31F27437D450009B28B /* CustomStyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320AC30B27437D450009B28B /* CustomStyledButton.swift */; };
+		320AC32027437D450009B28B /* NavigationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320AC30D27437D450009B28B /* NavigationHandler.swift */; };
+		320AC32127437D450009B28B /* ReferenceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320AC30F27437D450009B28B /* ReferenceListView.swift */; };
+		320AC32227437D450009B28B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320AC31027437D450009B28B /* ContentView.swift */; };
+		32943A83274386A400654F07 /* OpenBonCalendrierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32943A82274386A400654F07 /* OpenBonCalendrierTests.swift */; };
+		32943A87274386DF00654F07 /* OpenBonCalendrierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32943A85274386DF00654F07 /* OpenBonCalendrierUITests.swift */; };
+		32943A88274386DF00654F07 /* OpenBonCalendrierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32943A86274386DF00654F07 /* OpenBonCalendrierUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32943A672743863D00654F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 321BEC042681B4300027F88D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 321BEC0B2681B4300027F88D;
+			remoteInfo = OpenBonCalendrier;
+		};
+		32943A7C2743868C00654F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 321BEC042681B4300027F88D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 321BEC0B2681B4300027F88D;
+			remoteInfo = OpenBonCalendrier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		320AC2FB27437D450009B28B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		320AC2FC27437D450009B28B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		320AC2FE27437D450009B28B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		320AC30027437D450009B28B /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		320AC30127437D450009B28B /* GarageBaseApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageBaseApp.swift; sourceTree = "<group>"; };
+		320AC30627437D450009B28B /* ArticleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		320AC30827437D450009B28B /* CSListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSListView.swift; sourceTree = "<group>"; };
+		320AC30B27437D450009B28B /* CustomStyledButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyledButton.swift; sourceTree = "<group>"; };
+		320AC30D27437D450009B28B /* NavigationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationHandler.swift; sourceTree = "<group>"; };
+		320AC30F27437D450009B28B /* ReferenceListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceListView.swift; sourceTree = "<group>"; };
+		320AC31027437D450009B28B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		320AC31127437D450009B28B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321BEC0C2681B4300027F88D /* OpenBonCalendrier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenBonCalendrier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32943A632743863D00654F07 /* OpenBonCalendrierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenBonCalendrierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32943A762743868B00654F07 /* OpenBonCalendrierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenBonCalendrierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32943A82274386A400654F07 /* OpenBonCalendrierTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBonCalendrierTests.swift; sourceTree = "<group>"; };
+		32943A85274386DF00654F07 /* OpenBonCalendrierUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBonCalendrierUITests.swift; sourceTree = "<group>"; };
+		32943A86274386DF00654F07 /* OpenBonCalendrierUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBonCalendrierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		321BEC092681B4300027F88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32943A602743863D00654F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32943A732743868B00654F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		320AC2FA27437D450009B28B /* OpenBonCalendrier */ = {
+			isa = PBXGroup;
+			children = (
+				320AC2FB27437D450009B28B /* Assets.xcassets */,
+				320AC2FC27437D450009B28B /* GoogleService-Info.plist */,
+				320AC2FD27437D450009B28B /* Preview Content */,
+				320AC2FF27437D450009B28B /* HelperScripts */,
+				320AC30127437D450009B28B /* GarageBaseApp.swift */,
+				320AC30227437D450009B28B /* Views */,
+				320AC31027437D450009B28B /* ContentView.swift */,
+				320AC31127437D450009B28B /* Info.plist */,
+			);
+			path = OpenBonCalendrier;
+			sourceTree = "<group>";
+		};
+		320AC2FD27437D450009B28B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				320AC2FE27437D450009B28B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		320AC2FF27437D450009B28B /* HelperScripts */ = {
+			isa = PBXGroup;
+			children = (
+				320AC30027437D450009B28B /* Colors.swift */,
+			);
+			path = HelperScripts;
+			sourceTree = "<group>";
+		};
+		320AC30227437D450009B28B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				320AC30527437D450009B28B /* Articles */,
+				320AC30727437D450009B28B /* CodeSnippets */,
+				320AC30927437D450009B28B /* Common */,
+				320AC30E27437D450009B28B /* Reference */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		320AC30527437D450009B28B /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				320AC30627437D450009B28B /* ArticleListView.swift */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		320AC30727437D450009B28B /* CodeSnippets */ = {
+			isa = PBXGroup;
+			children = (
+				320AC30827437D450009B28B /* CSListView.swift */,
+			);
+			path = CodeSnippets;
+			sourceTree = "<group>";
+		};
+		320AC30927437D450009B28B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				320AC30A27437D450009B28B /* TextAndButtons */,
+				320AC30C27437D450009B28B /* Handlers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		320AC30A27437D450009B28B /* TextAndButtons */ = {
+			isa = PBXGroup;
+			children = (
+				320AC30B27437D450009B28B /* CustomStyledButton.swift */,
+			);
+			path = TextAndButtons;
+			sourceTree = "<group>";
+		};
+		320AC30C27437D450009B28B /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				320AC30D27437D450009B28B /* NavigationHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		320AC30E27437D450009B28B /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				320AC30F27437D450009B28B /* ReferenceListView.swift */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		321BEC032681B4300027F88D = {
+			isa = PBXGroup;
+			children = (
+				320AC2FA27437D450009B28B /* OpenBonCalendrier */,
+				32943A81274386A400654F07 /* OpenBonCalendrierTests */,
+				32943A84274386DF00654F07 /* OpenBonCalendrierUITests */,
+				321BEC0D2681B4300027F88D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		321BEC0D2681B4300027F88D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				321BEC0C2681B4300027F88D /* OpenBonCalendrier.app */,
+				32943A632743863D00654F07 /* OpenBonCalendrierTests.xctest */,
+				32943A762743868B00654F07 /* OpenBonCalendrierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32943A81274386A400654F07 /* OpenBonCalendrierTests */ = {
+			isa = PBXGroup;
+			children = (
+				32943A82274386A400654F07 /* OpenBonCalendrierTests.swift */,
+			);
+			path = OpenBonCalendrierTests;
+			sourceTree = "<group>";
+		};
+		32943A84274386DF00654F07 /* OpenBonCalendrierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32943A85274386DF00654F07 /* OpenBonCalendrierUITests.swift */,
+				32943A86274386DF00654F07 /* OpenBonCalendrierUITestsLaunchTests.swift */,
+			);
+			path = OpenBonCalendrierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		321BEC0B2681B4300027F88D /* OpenBonCalendrier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 321BEC312681B4330027F88D /* Build configuration list for PBXNativeTarget "OpenBonCalendrier" */;
+			buildPhases = (
+				321BEC082681B4300027F88D /* Sources */,
+				321BEC092681B4300027F88D /* Frameworks */,
+				321BEC0A2681B4300027F88D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenBonCalendrier;
+			productName = GarageBase;
+			productReference = 321BEC0C2681B4300027F88D /* OpenBonCalendrier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32943A622743863D00654F07 /* OpenBonCalendrierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32943A692743863D00654F07 /* Build configuration list for PBXNativeTarget "OpenBonCalendrierTests" */;
+			buildPhases = (
+				32943A5F2743863D00654F07 /* Sources */,
+				32943A602743863D00654F07 /* Frameworks */,
+				32943A612743863D00654F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32943A682743863D00654F07 /* PBXTargetDependency */,
+			);
+			name = OpenBonCalendrierTests;
+			productName = OpenBonCalendrierTests;
+			productReference = 32943A632743863D00654F07 /* OpenBonCalendrierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32943A752743868B00654F07 /* OpenBonCalendrierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32943A7E2743868C00654F07 /* Build configuration list for PBXNativeTarget "OpenBonCalendrierUITests" */;
+			buildPhases = (
+				32943A722743868B00654F07 /* Sources */,
+				32943A732743868B00654F07 /* Frameworks */,
+				32943A742743868B00654F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32943A7D2743868C00654F07 /* PBXTargetDependency */,
+			);
+			name = OpenBonCalendrierUITests;
+			productName = OpenBonCalendrierUITests;
+			productReference = 32943A762743868B00654F07 /* OpenBonCalendrierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		321BEC042681B4300027F88D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					321BEC0B2681B4300027F88D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					32943A622743863D00654F07 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 321BEC0B2681B4300027F88D;
+					};
+					32943A752743868B00654F07 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 321BEC0B2681B4300027F88D;
+					};
+				};
+			};
+			buildConfigurationList = 321BEC072681B4300027F88D /* Build configuration list for PBXProject "OpenBonCalendrier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 321BEC032681B4300027F88D;
+			productRefGroup = 321BEC0D2681B4300027F88D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				321BEC0B2681B4300027F88D /* OpenBonCalendrier */,
+				32943A622743863D00654F07 /* OpenBonCalendrierTests */,
+				32943A752743868B00654F07 /* OpenBonCalendrierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		321BEC0A2681B4300027F88D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320AC31927437D450009B28B /* Preview Assets.xcassets in Resources */,
+				320AC31727437D450009B28B /* Assets.xcassets in Resources */,
+				320AC31827437D450009B28B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32943A612743863D00654F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32943A742743868B00654F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		321BEC082681B4300027F88D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320AC32027437D450009B28B /* NavigationHandler.swift in Sources */,
+				320AC31F27437D450009B28B /* CustomStyledButton.swift in Sources */,
+				320AC31D27437D450009B28B /* ArticleListView.swift in Sources */,
+				320AC31E27437D450009B28B /* CSListView.swift in Sources */,
+				320AC31B27437D450009B28B /* GarageBaseApp.swift in Sources */,
+				320AC32227437D450009B28B /* ContentView.swift in Sources */,
+				320AC32127437D450009B28B /* ReferenceListView.swift in Sources */,
+				320AC31A27437D450009B28B /* Colors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32943A5F2743863D00654F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32943A722743868B00654F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32943A87274386DF00654F07 /* OpenBonCalendrierUITests.swift in Sources */,
+				32943A83274386A400654F07 /* OpenBonCalendrierTests.swift in Sources */,
+				32943A88274386DF00654F07 /* OpenBonCalendrierUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32943A682743863D00654F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 321BEC0B2681B4300027F88D /* OpenBonCalendrier */;
+			targetProxy = 32943A672743863D00654F07 /* PBXContainerItemProxy */;
+		};
+		32943A7D2743868C00654F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 321BEC0B2681B4300027F88D /* OpenBonCalendrier */;
+			targetProxy = 32943A7C2743868C00654F07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		321BEC2F2681B4330027F88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		321BEC302681B4330027F88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		321BEC322681B4330027F88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenBonCalendrier/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OpenBonCalendrier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBonCalendrier.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		321BEC332681B4330027F88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenBonCalendrier/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OpenBonCalendrier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBonCalendrier.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32943A6A2743863D00654F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBonCalendrierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenBonCalendrier.app/OpenBonCalendrier";
+			};
+			name = Debug;
+		};
+		32943A6B2743863D00654F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBonCalendrierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenBonCalendrier.app/OpenBonCalendrier";
+			};
+			name = Release;
+		};
+		32943A7F2743868C00654F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBonCalendrierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenBonCalendrier;
+			};
+			name = Debug;
+		};
+		32943A802743868C00654F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.OpenBonCalendrierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenBonCalendrier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		321BEC072681B4300027F88D /* Build configuration list for PBXProject "OpenBonCalendrier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321BEC2F2681B4330027F88D /* Debug */,
+				321BEC302681B4330027F88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		321BEC312681B4330027F88D /* Build configuration list for PBXNativeTarget "OpenBonCalendrier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321BEC322681B4330027F88D /* Debug */,
+				321BEC332681B4330027F88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32943A692743863D00654F07 /* Build configuration list for PBXNativeTarget "OpenBonCalendrierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32943A6A2743863D00654F07 /* Debug */,
+				32943A6B2743863D00654F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32943A7E2743868C00654F07 /* Build configuration list for PBXNativeTarget "OpenBonCalendrierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32943A7F2743868C00654F07 /* Debug */,
+				32943A802743868C00654F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 321BEC042681B4300027F88D /* Project object */;
+}

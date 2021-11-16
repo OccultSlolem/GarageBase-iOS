@@ -1,2 +1,3 @@
-# GarageBase-iOS
-Wikis, code snippets, articles, and more community stuff about GarageBase.
+# OpenBonCalendrier-iOS
+
+A FOSS agenda keeper with no bullshit. Ie, no ads, outdated frameworks, spying, or insane download sizes.
